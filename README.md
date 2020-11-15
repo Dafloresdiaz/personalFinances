@@ -5,7 +5,7 @@ Also the data will be shown in a JSON response like an API, because the user can
 
 ## Technologies
 - Flask: To make the web application, also the plan is to make an API to return the data in json for the user
-- Python 3./ or greater
+- Python 3.7 or greater
 - HMTL
 - Bootstrap
 - SQLite, SQL or MongoDB
