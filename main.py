@@ -1,6 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
-app = Flask(__name__, template_folder='webPages')
+app = Flask(__name__, template_folder='webPages', static_folder='static')
 app.secret_key = "personalFinances"
 app.debug = True
 
