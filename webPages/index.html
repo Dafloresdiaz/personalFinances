@@ -26,21 +26,13 @@
                             <div class="sb-sidenav-menu-heading">Core</div>
                             <a class="nav-link" href="index.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Dashboard
-                            </a>
-                            <a class="nav-link" href="index.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-cart-plus"></i></div>
-                                Add spending
-                            </a>
-                            <a class="nav-link" href="index.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tag"></i></div>
-                                Add new group
-                            </a>
+                                Main Page 
+                            </a> 
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                        Start Bootstrap
+                        Daniel Flores
                     </div>
                 </nav>
             </div>
@@ -51,6 +43,63 @@
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">How much money you spent per day</li>
                         </ol>
+                        <div class="row">
+                            <div class="col-sm-6">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Create New Expense</h5>
+                                  <form>
+                                    <div class="form-row align-items-center">
+                                      <div class="col-auto">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">Total Amount: </div>
+                                            </div>
+                                            <input type="number" min="0" step=".01" class="form-control" id="expense" placeholder="200.00">
+                                        </div>
+                                      </div>
+                                      <div class="col-auto">
+                                        <div class="input-group">
+                                          <div class="input-group-prepend">
+                                            <div class="input-group-text">Select A Group: </div>
+                                          </div>
+                                          <select id="inputState" class="form-control">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                          </select>
+                                        </div>
+                                      </div>
+                                      <div class="col-auto">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Create New Group</h5>
+                                  <form>
+                                    <div class="form-row align-items-center">
+                                      <div class="col-auto">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">Name of the group: </div>
+                                            </div>
+                                            <input type="text" class="form-control" id="newGroup" placeholder="Month payment">
+                                        </div>
+                                      </div>
+                                      <div class="col-auto">
+                                        <button type="submit" class="btn btn-primary ">Submit</button>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="card mb-4">
